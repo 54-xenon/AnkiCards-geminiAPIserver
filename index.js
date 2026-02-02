@@ -19,5 +19,9 @@ const ai = new GoogleGenAI({
 
 // 指定のポートで開く
 app.listen(port, () => {
-    console.log("server running http://localhost:${port} ")
+    console.log("server running http://localhost:${port} ");
 });
+
+// POST -> Flutterアプリからのリクエストを受けて、expample(解説)を生成して返す
+
+// GET -> GeminiAPIの無料枠の残りと、使用しているモデル名とかを返す

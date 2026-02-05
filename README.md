@@ -63,13 +63,13 @@ node -v
 
 ### 2. Gemini API キー取得
 
-Google AI Studio から API キーを取得し、`.env` に設定します。
+Google AI Studio から API キーを取得し、`.env` に設定。
 
 ```
 GEMINI_API_KEY=your_api_key_here
 ```
 
-⚠️ API キーは **絶対に GitHub にコミットしない**
+⚠️ APIキーは **GitHubにコミットされていないことを確認**
 
 ---
 

@@ -44,7 +44,7 @@ app.post('/api/gemini/example', async (req, res) => {
         });
 
         // respose -> json形式でexampleをレスポンスとして返す
-        res.json({
+        res.status(200).json({
             // .textで文字列に変換？している
             example: response.text
         });
